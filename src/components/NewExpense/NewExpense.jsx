@@ -21,6 +21,7 @@ const NewExpense = (props) => {
   const hideExpenseFormHandler = () => {
     setShowExpenseForm(false);
   };
+
   return (
     <div className="new-expense">
       {!showExpenseForm && (
